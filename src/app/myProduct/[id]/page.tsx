@@ -1,47 +1,50 @@
-import React from 'react'
-import Image from 'next/image'
-import Button from '@/components/button'
-import { data } from '../../../../constant/data'
+import React from 'react';
+import Image from 'next/image';
+import Button from '@/components/button';
+import { data } from '../../../../constant/data';
 
-function DynamicIdPage({params}: {params : {id : number} }) {
-  const item = data.find((item) => params.id == item.id)
-  
+function DynamicIdPage({ params }: { params: { id: number } }) {
+  const item = data.find((item) => item.id === Number(params.id));
+
   return (
     <>
-        <div className='flex ml-12 mt-10 justify-left '>
-    <Image className='scale-up-center rounded-lg'
-        src= {item?.src || ""} 
-        alt="logo"
-        width={500} 
-        height={500}/>
-    
-    <div className='scale-up-center w-full'>
-        <h1 className='font-bold text-4xl underline mt-5 mb-2 ml-10  text-pink-500'>{item?.heading}</h1>
-    
-        <h3 className=' ml-10 mt-3 mb-2 font-bold text-2xl'>Description:</h3>
-    
-        <p className='ml-10 mt-3 mb-2'>Experience rich, velvety color with our Velvet Matte Lipstick in Ruby Passion, a bold, deep red shade that adds a touch of elegance to any look. This long-lasting formula provides intense pigmentation in just one swipe, while its matte finish ensures a chic, sophisticated appearance. Infused with jojoba oil and shea butter, it keeps your lips soft and hydrated, preventing dryness and cracking. Perfect for all-day wear, whether at the office or a night out, this lipstick stays vibrant and comfortable for hours.</p>
-    
-        <h3 className=' ml-10 mt-3 mb-2 font-bold text-xl'>Key Features:</h3>
-    
-        <ol className='ml-10 mt-3 mb-5'>
-    
-        <li>* Shade: Ruby Passion (deep red)</li>
-        <li>* Finish: Velvet matte</li>
-        <li>* Long-wearing: Up to 8 hours of wear</li>
-        <li>* Hydrating Formula: Contains jojoba oil and shea butter</li>
-        <li>* Coverage: Medium-to-full, buildable</li>
-        <li>* Finish: Luminous, dewy</li>
-    
-        </ol>
-        <div>
-            <Button/>
-        </div>
-    
-        </div>
-        </div>
+      <div className='flex flex-col md:flex-row ml-4 mt-10 justify-start'>
+        {item ? (
+          <>
+            <Image
+              className='scale-up-center rounded-lg w-full max-w-[500px]'
+              src={item.src} 
+              alt={item.heading} 
+              width={500} 
+              height={500} 
+            />
+            
+            <div className='scale-up-center w-full max-w-xl md:ml-10'> 
+              <h1 className='font-bold text-2xl md:text-4xl underline mt-5 mb-2 text-pink-500'>{item.heading}</h1>
+              
+              <h3 className='mt-3 mb-2 font-bold text-xl'>Description:</h3>
+              <p className='mt-3 mb-2'>{item.para}</p>
+              
+              <h3 className='mt-3 mb-2 font-bold text-lg'>Key Features:</h3>
+              <ol className='mt-3 mb-5 list-decimal list-inside'>
+                <li>* Hydrating and nourishing ingredients</li>
+                <li>* Long-lasting wear</li>
+                <li>* Ideal for all skin types</li>
+                <li>* Easy application</li>
+                <li>* Perfect for everyday use</li>
+              </ol>
+              
+              <div>
+                <Button />
+              </div>
+            </div>
+          </>
+        ) : (
+          <p className='ml-10 mt-5'>Item not found.</p>
+        )}
+      </div>
     </>
-  )
+  );
 }
-export default DynamicIdPage
 
+export default DynamicIdPage;
