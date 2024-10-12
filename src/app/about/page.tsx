@@ -30,7 +30,7 @@ function About() {
             HER beauty has partnered up with Taskeen Health Initiative, a non-profit organization dedicated to transforming attitudes and behaviors towards mental health and well-being in Pakistan. Their mission is to increase mental health awareness, provide accessible services, and advocate for policy change.
           </p>
           <p className="mt-4">
-            Through our HerVoice wellness pledge, we aim to foster connection and celebrate individuality beyond social profiles. HER with Taskeen’s support is on a mission to uplift women through every phase of their lives; the good, the rough, and everything in between, we've got you through it all!
+            Through our HerVoice wellness pledge, we aim to foster connection and celebrate individuality beyond social profiles. HER with Taskeen’s support is on a mission to uplift women through every phase of their lives; the good, the rough, and everything in between, we&apos;ve got you through it all!
           </p>
           <p className="mt-4">
             Everyone has a voice, and every voice deserves to be heard.
