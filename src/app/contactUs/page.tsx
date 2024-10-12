@@ -4,14 +4,12 @@ function Contact() {
   return (
     <div className="p-4 sm:p-6 font-sans">
       {/* Contact Us Heading */}
-
       <h1 className="text-3xl sm:text-4xl text-pink-500 text-center mt-10 font-bold">Contact Us</h1>
       <p className="text-center text-base sm:text-lg mt-4 max-w-screen-md mx-auto">
-        We'd love to hear from you! Whether you have a question or simply want to know more about our beauty care products and services, feel free to reach out.
+        We&apos;d love to hear from you! Whether you have a question or simply want to know more about our beauty care products and services, feel free to reach out.
       </p>
 
       {/* Contact Information */}
-
       <div className="mt-5 text-center text-base sm:text-lg">
         <h2 className="text-2xl sm:text-3xl text-pink-500 text-center font-bold mb-5">Contact Information</h2>
         <p>📍 <strong>Address:</strong> 123 Beauty Blvd, Glam City, Country</p>
@@ -22,7 +20,6 @@ function Contact() {
       </div>
 
       {/* Send Us a Message Form */}
-      
       <div className="mt-10 text-base sm:text-lg">
         <h2 className="text-xl sm:text-2xl text-pink-500 text-center">Send Us a Message</h2>
         <form className="max-w-lg mx-auto mt-4">

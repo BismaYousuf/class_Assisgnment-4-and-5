@@ -36,7 +36,7 @@ function About() {
             Everyone has a voice, and every voice deserves to be heard.
           </p>
           <p className="mt-4">
-            Let's spark conversations and drive positive change together ✨
+            Let&apos;s spark conversations and drive positive change together ✨
           </p>
         </div>
       </div>
