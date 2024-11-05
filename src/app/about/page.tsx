@@ -4,7 +4,7 @@ import Image from 'next/image';
 function About() {
   return (
     <>
-      <div className="scale-up-center flex mt-20 justify-center text-pink-500 text-3xl sm:text-4xl md:text-5xl font-extrabold">
+      <div className="scale-up-center flex mt-20 justify-center text-black text-3xl sm:text-4xl md:text-5xl font-extrabold">
         <h1>About Us</h1>
       </div>
       
@@ -14,7 +14,7 @@ function About() {
         </p>
       </div>
 
-      <div className="scale-up-center m-4 mb-8 mt-2 rounded-2xl shadow-2xl shadow-pink-500 border-2 border-pink-600 p-3 flex flex-col md:flex-row items-center max-w-screen-md mx-auto"> 
+      <div className="scale-up-center m-4 mb-8 mt-2 rounded-2xl shadow-2xl border-2 border-slate-300 p-3 flex flex-col md:flex-row items-center max-w-screen-md mx-auto"> 
         <div className="relative w-32 h-32 md:w-48 md:h-48"> 
           <Image
             className="rounded-full" 
@@ -25,7 +25,7 @@ function About() {
           />
         </div>
         
-        <div className="mt-5 md:mt-0 md:ml-5 text-pink-500 text-sm sm:text-base md:text-lg max-w-xl">
+        <div className="mt-5 md:mt-0 md:ml-5 text-black text-sm sm:text-base md:text-lg max-w-xl">
           <p>
             HER beauty has partnered up with Taskeen Health Initiative, a non-profit organization dedicated to transforming attitudes and behaviors towards mental health and well-being in Pakistan. Their mission is to increase mental health awareness, provide accessible services, and advocate for policy change.
           </p>

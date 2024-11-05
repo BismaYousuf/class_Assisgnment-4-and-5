@@ -8,8 +8,8 @@ function MainSection() {
       <div className="scale-up-center flex justify-center mt-10 mb-10">
         <div className="w-full max-w-4xl sm:max-w-2xl md:max-w-3xl lg:max-w-4xl">
           <Image
-            className="rounded-2xl shadow-2xl shadow-pink-500 border-2 border-pink-600"
-            src={'/mainpage.jpeg'}
+            className="rounded-2xl shadow-2xl  border-2 border-black"
+            src={'/mainpage.jpg'}
             alt={'pic'}
             width={850}
             height={500}

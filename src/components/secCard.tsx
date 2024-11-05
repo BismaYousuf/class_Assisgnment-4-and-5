@@ -7,7 +7,7 @@ function SecCard() {
     <>
       <div className="flex flex-wrap justify-center mt-10 gap-4 sm:gap-6">
         {/* First Card */}
-        <div className="w-full max-w-[90%] sm:max-w-[250px] md:max-w-[300px] lg:max-w-[350px] h-auto bg-white text-black border-2 rounded-lg border-pink-600 p-3 shadow-2xl transition-transform transform hover:scale-105">
+        <div className="w-full max-w-[90%] sm:max-w-[250px] md:max-w-[300px] lg:max-w-[350px] h-auto bg-white text-black border-2 rounded-lg border-black p-3 shadow-2xl transition-transform transform hover:scale-105">
           <Link href={"/AllCosmatics"}>
             <Image
               className="rounded-lg"
@@ -24,7 +24,7 @@ function SecCard() {
           </Link>
           <div className="flex justify-end mt-2">
             <Link href={"/AllCosmatics"}>
-              <button className="border-pink-600 p-2 font-bold text-pink-600 border-2 rounded-3xl hover:bg-pink-600 hover:text-white">
+              <button className="border-black p-2 font-bold text-black border-2 rounded-3xl hover:bg-black hover:text-white">
                 See more
               </button>
             </Link>
@@ -32,7 +32,7 @@ function SecCard() {
         </div>
 
         {/* Second Card */}
-        <div className="w-full max-w-[90%] sm:max-w-[250px] md:max-w-[300px] lg:max-w-[350px] h-auto bg-white text-black border-2 rounded-lg border-pink-600 p-3 shadow-2xl transition-transform transform hover:scale-105">
+        <div className="w-full max-w-[90%] sm:max-w-[250px] md:max-w-[300px] lg:max-w-[350px] h-auto bg-white text-black border-2 rounded-lg border-black p-3 shadow-2xl transition-transform transform hover:scale-105">
           <Link href={"/beautyProducts"}>
             <Image
               className="rounded-lg"
@@ -49,7 +49,7 @@ function SecCard() {
           </Link>
           <div className="flex justify-end mt-2">
             <Link href={"/beautyProducts"}>
-              <button className="border-pink-600 p-2 font-bold text-pink-600 border-2 rounded-3xl hover:bg-pink-600 hover:text-white">
+              <button className="border-black p-2 font-bold text-black border-2 rounded-3xl hover:bg-black hover:text-white">
                 See more
               </button>
             </Link>
@@ -57,7 +57,7 @@ function SecCard() {
         </div>
 
         {/* Third Card */}
-        <div className="w-full max-w-[90%] sm:max-w-[250px] md:max-w-[300px] lg:max-w-[350px] h-auto bg-white text-black border-2 rounded-lg border-pink-600 p-3 shadow-2xl transition-transform transform hover:scale-105">
+        <div className="w-full max-w-[90%] sm:max-w-[250px] md:max-w-[300px] lg:max-w-[350px] h-auto bg-white text-black border-2 rounded-lg border-black p-3 shadow-2xl transition-transform transform hover:scale-105">
           <Link href={"/Cosmatics"}>
             <Image
               className="rounded-lg"
@@ -69,12 +69,12 @@ function SecCard() {
             />
             <h1 className="font-bold text-lg sm:text-xl underline mt-3 mb-2">All Cosmetic And Beauty Products:</h1>
             <p className="text-sm sm:text-base">
-              Products are depicted in action and not by themselves in product photography for magazines, banners, and advertisements. This makes your photography more engaging...
+              Products are depicted in action and not by themselves in product photography for magazines, banners, and advertisements. This makes your photography...
             </p>
           </Link>
           <div className="flex justify-end mt-2">
             <Link href={"/Cosmatics"}>
-              <button className="border-pink-600 p-2 font-bold text-pink-600 border-2 rounded-3xl hover:bg-pink-600 hover:text-white">
+              <button className="border-black p-2 font-bold text-black border-2 rounded-3xl hover:bg-black hover:text-white">
                 See more
               </button>
             </Link>

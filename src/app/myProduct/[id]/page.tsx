@@ -20,7 +20,7 @@ function DynamicIdPage({ params }: { params: { id: number } }) {
             />
             
             <div className='scale-up-center w-full max-w-xl md:ml-10'> 
-              <h1 className='font-bold text-2xl md:text-4xl underline mt-5 mb-2 text-pink-500'>{item.heading}</h1>
+              <h1 className='font-bold text-2xl md:text-4xl underline mt-5 mb-2 text-black'>{item.heading}</h1>
               
               <h3 className='mt-3 mb-2 font-bold text-xl'>Description:</h3>
               <p className='mt-3 mb-2'>{item.para}</p>

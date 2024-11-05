@@ -4,7 +4,7 @@ import React from 'react';
 function Footer() {
   return (
     <>
-      <footer className='bg-pink-500 text-white py-10 mt-10'>
+      <footer className='bg-black text-white py-10 mt-10'>
         <div className='container mx-auto px-5'>
           <div className='flex flex-col md:flex-row justify-between flex-wrap'>
 
@@ -40,7 +40,7 @@ function Footer() {
           </div>
 
           {/* Footer Bottom */}
-          <div className='border-t border-pink-300 mt-8 pt-5 text-center'>
+          <div className='border-t border-white mt-8 pt-5 text-center'>
             <p className='text-sm'>
               &copy; 2024 Bisma Yousuf. All rights reserved.
             </p>

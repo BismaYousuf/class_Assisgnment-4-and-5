@@ -11,8 +11,8 @@ export default function Home() {
         <MainSection />
         <CardsSection />
         <SecCard />
-        <About />
-        <Contact />
+        {/* <About /> */}
+        {/* <Contact /> */}
       </div>
     </>
   );
